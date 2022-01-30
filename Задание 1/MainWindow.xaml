@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name = "grid">
-        <TextBlock Text="  Калькулятор" Margin="260,20,260,20" Foreground="White" FontSize="14" FontFamily="Arial Rounded MT Bold" FontWeight="Normal">
+        <TextBlock Text="     Калькулятор" Margin="260,20,260,20" Foreground="White" FontSize="14" FontFamily="Arial Rounded MT Bold" FontWeight="Normal">
             <TextBlock.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE32121"/>
@@ -17,8 +17,23 @@
         </TextBlock>
 
 
-        <Button Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Background="#FFCF3939" BorderBrush="#FF090F6F" Foreground="White" FontWeight="Bold" BorderThickness="10,30,10,10" FontFamily="AcadEref" Margin="-2,0,0,0"/>
-
+        <Button Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="326" Background="White" BorderBrush="#FF5E0C35" FontWeight="Bold" BorderThickness="10,20,10,270" FontFamily="AcadEref"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="285,145,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="340,145,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="395,145,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="465,145,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="285,200,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="340,200,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="395,200,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="465,200,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="285,255,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="340,255,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="395,255,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="465,255,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="285,310,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="340,310,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="395,310,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="465,310,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="24" BorderBrush="Red" Background="#FFB59999"/>
 
     </Grid>
 </Window>
